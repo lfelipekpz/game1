@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoExplorer Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
+</head>
+<body>
+    <div id="game-container">
+        <h1>GeoExplorer Game</h1>
+        <div id="image-container">
+            <!-- Mapillary image/view will be displayed here -->
+        </div>
+        <div id="map-container">
+            <!-- Leaflet map will be displayed here -->
+        </div>
+        <div id="ui-container">
+            <div id="score-display">Score: 0</div>
+            <div id="round-display">Round: 1</div>
+            <button id="submit-guess-btn">Submit Guess</button>
+            <button id="next-round-btn" style="display: none;">Next Round</button>
+            <button id="play-again-btn" style="display: none;">Play Again</button>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+    <script src="script.js"></script>
+</body>
+</html>

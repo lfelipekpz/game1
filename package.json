@@ -1,0 +1,20 @@
+{
+  "name": "geoexplorer-game",
+  "version": "1.0.0",
+  "description": "GeoExplorer Game - Guess locations from Mapillary images using Leaflet and Mapillary API.",
+  "main": "index.html",
+  "scripts": {
+    "start": "vercel dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "geography",
+    "game",
+    "mapillary",
+    "leaflet",
+    "geo",
+    "guess"
+  ],
+  "author": "Your Name or Alias",
+  "license": "ISC"
+}
